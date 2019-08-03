@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/practice.dir/main.c.o"
+  "CMakeFiles/practice.dir/main.c.obj"
   "practice.pdb"
-  "practice"
+  "practice.exe"
+  "practice.exe.manifest"
+  "libpractice.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

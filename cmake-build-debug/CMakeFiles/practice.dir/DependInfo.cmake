@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/robot/github/practice/main.c" "/home/robot/github/practice/cmake-build-debug/CMakeFiles/practice.dir/main.c.o"
+  "D:/githubPro/practice/main.c" "D:/githubPro/practice/cmake-build-debug/CMakeFiles/practice.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

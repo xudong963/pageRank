@@ -1,3 +1,3 @@
-/home/robot/github/practice/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/robot/github/practice/cmake-build-debug/CMakeFiles/practice.dir
-/home/robot/github/practice/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/githubPro/practice/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/githubPro/practice/cmake-build-debug/CMakeFiles/practice.dir
+D:/githubPro/practice/cmake-build-debug/CMakeFiles/rebuild_cache.dir
