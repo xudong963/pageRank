@@ -9,10 +9,8 @@ graphStructure createGraph(int v)
     graphStructure graph = malloc(sizeof(struct GraphStructure));  //allocate the memory of graph
     graph->v = v;      // initialize the number of vertex
     graph->e = 0;      // initialize the number of edge
-    //graph->w = malloc(v * sizeof(int));
     for(int i=0; i<v; i++)
     {
-        //graph->w[i] = malloc(v * sizeof(int *));
         for(int j=0; j<v; j++)
             graph->w[i][j] = 0;   //initialize the weight of edge : 0
     }

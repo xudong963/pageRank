@@ -61,12 +61,6 @@ graphStructure buildGraph()
     {
         outDegree[i] = outLinks(g, i);
     }
-    /*
-    // release memory
-    for(int i=0; i<urlNum; i++)
-        free(urlArr[i]);
-    free(urlArr);
-    */
     return g;
 }
 
