@@ -3,9 +3,11 @@
 int main(int argc, char* argv[])
 {
     //strtod: transfer str to double
-    double d = 0.85;
-    double diffPR = 0.00001;
-    int maxIterations = 1000;
+    char* p;
+    double d = strtod(argv[1], &p);
+    double diffPR = strtod(argv[2], &p);
+    int maxIterations = strtod(argv[3], &p);
+
     readData();
     graphStructure g = buildGraph();
     double* pageRank = calculatePageRankW(g, d, diffPR, maxIterations);
@@ -26,13 +28,16 @@ double* calculatePageRankW(graphStructure g, double d, double diffPR, int maxIte
     double *PR  = malloc(urlNum* sizeof(double));
     double fontPR[urlNum];
     for(int i=0; i<urlNum; i++)
-        PR[i] = (double)1/urlNum;
+    {
+        PR[i] = 1.0/urlNum;
+    }
     int iteration = 0;
     double sumDiff = 0;
     double sum = 0;
     double diff = diffPR;
     while(iteration<maxIteration && diff>=diffPR)
     {
+        iteration++;
         sumDiff = 0;
         for(int k=0; k<urlNum; k++)
             fontPR[k] = PR[k];
@@ -44,12 +49,11 @@ double* calculatePageRankW(graphStructure g, double d, double diffPR, int maxIte
                 if(g->w[j][i] && i!=j)
                     sum += (fontPR[j] * (inLinks(g, i)/sumIn(g,j)) * (outLinks(g, i)/sumOut(g,j)));
             }
-            PR[i] = (1.0-d)/urlNum + d*sum;
+            PR[i] = (1.0-d)/(double)urlNum + d*sum;
         }
-        for(int i=0; i<urlNum; i++)
-            sumDiff += fabs(PR[i] - fontPR[i]);
+        for(int q=0; q<urlNum; q++)
+            sumDiff += fabs(PR[q] - fontPR[q]);
         diff = sumDiff;
-        iteration++;
     }
     return PR;
 }

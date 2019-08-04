@@ -40,11 +40,13 @@ double inLinks(graphStructure g, int v)
         if(g->w[i][v])
             inlinks++;
     }
+    if(inlinks==0)
+        inlinks=0.5;
     return inlinks;
 }
 
 //number of outLinks of v
-double  outLinks(graphStructure g, int v)
+double outLinks(graphStructure g, int v)
 {
     double outlinks = 0;
     for(int j=0; j<g->v; j++)
@@ -64,8 +66,8 @@ double sumIn(graphStructure g, int v)
     double sumin = 0;
     for(int i=0; i<g->v; i++)
     {
-        if(g->w[i][v])
-            sumin += inLinks(g, v);
+        if(g->w[v][i] && i!=v)
+            sumin += inLinks(g, i);
     }
     return sumin;
 }
@@ -76,8 +78,8 @@ double sumOut(graphStructure g, int v)
     double sumout = 0;
     for(int i=0; i<g->v; i++)
     {
-        if(g->w[v][i])
-            sumout += outLinks(g, v);
+        if(g->w[v][i] && i!=v)
+            sumout += outLinks(g, i);
     }
     return sumout;
 }

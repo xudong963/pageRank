@@ -14,16 +14,12 @@
     <list default="true" id="1b8153e5-43a9-4cc1-99ea-8dfb1851e4f7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/practice.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/practice.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/practice.dir/graph.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/practice.dir/graph.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/practice.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/practice.dir/objects.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/practice.dir/pagerank.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/practice.dir/pagerank.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/collection.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/collection.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/pagerankList.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pagerankList.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/practice.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/practice.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/url21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/url21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/url22.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/url22.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/url31.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/url31.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/url32.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/url32.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/url34.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/url34.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph.c" beforeDir="false" afterPath="$PROJECT_DIR$/graph.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pagerank.c" beforeDir="false" afterPath="$PROJECT_DIR$/pagerank.c" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,7 +76,7 @@
       <workItem from="1564880889719" duration="1240000" />
       <workItem from="1564882272192" duration="131000" />
       <workItem from="1564854056676" duration="650000" />
-      <workItem from="1564855289026" duration="28490000" />
+      <workItem from="1564855289026" duration="33256000" />
     </task>
     <servers />
   </component>
