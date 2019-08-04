@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/practice.dir/main.c.obj"
+  "CMakeFiles/practice.dir/readData.c.obj"
+  "CMakeFiles/practice.dir/graph.c.obj"
+  "CMakeFiles/practice.dir/pagerank.c.obj"
   "practice.pdb"
   "practice.exe"
   "practice.exe.manifest"

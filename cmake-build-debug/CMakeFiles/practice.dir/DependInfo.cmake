@@ -4,7 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "D:/githubPro/practice/main.c" "D:/githubPro/practice/cmake-build-debug/CMakeFiles/practice.dir/main.c.obj"
+  "D:/githubPro/practice/graph.c" "D:/githubPro/practice/cmake-build-debug/CMakeFiles/practice.dir/graph.c.obj"
+  "D:/githubPro/practice/pagerank.c" "D:/githubPro/practice/cmake-build-debug/CMakeFiles/practice.dir/pagerank.c.obj"
+  "D:/githubPro/practice/readData.c" "D:/githubPro/practice/cmake-build-debug/CMakeFiles/practice.dir/readData.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

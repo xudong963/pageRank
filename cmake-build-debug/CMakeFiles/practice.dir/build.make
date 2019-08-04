@@ -56,32 +56,62 @@ include CMakeFiles/practice.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/practice.dir/flags.make
 
-CMakeFiles/practice.dir/main.c.obj: CMakeFiles/practice.dir/flags.make
-CMakeFiles/practice.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\githubPro\practice\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/practice.dir/main.c.obj"
-	D:\downloads\gcc_clang\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\practice.dir\main.c.obj   -c D:\githubPro\practice\main.c
+CMakeFiles/practice.dir/readData.c.obj: CMakeFiles/practice.dir/flags.make
+CMakeFiles/practice.dir/readData.c.obj: ../readData.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\githubPro\practice\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/practice.dir/readData.c.obj"
+	D:\downloads\gcc_clang\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\practice.dir\readData.c.obj   -c D:\githubPro\practice\readData.c
 
-CMakeFiles/practice.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/practice.dir/main.c.i"
-	D:\downloads\gcc_clang\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\githubPro\practice\main.c > CMakeFiles\practice.dir\main.c.i
+CMakeFiles/practice.dir/readData.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/practice.dir/readData.c.i"
+	D:\downloads\gcc_clang\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\githubPro\practice\readData.c > CMakeFiles\practice.dir\readData.c.i
 
-CMakeFiles/practice.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/practice.dir/main.c.s"
-	D:\downloads\gcc_clang\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\githubPro\practice\main.c -o CMakeFiles\practice.dir\main.c.s
+CMakeFiles/practice.dir/readData.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/practice.dir/readData.c.s"
+	D:\downloads\gcc_clang\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\githubPro\practice\readData.c -o CMakeFiles\practice.dir\readData.c.s
+
+CMakeFiles/practice.dir/graph.c.obj: CMakeFiles/practice.dir/flags.make
+CMakeFiles/practice.dir/graph.c.obj: ../graph.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\githubPro\practice\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/practice.dir/graph.c.obj"
+	D:\downloads\gcc_clang\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\practice.dir\graph.c.obj   -c D:\githubPro\practice\graph.c
+
+CMakeFiles/practice.dir/graph.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/practice.dir/graph.c.i"
+	D:\downloads\gcc_clang\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\githubPro\practice\graph.c > CMakeFiles\practice.dir\graph.c.i
+
+CMakeFiles/practice.dir/graph.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/practice.dir/graph.c.s"
+	D:\downloads\gcc_clang\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\githubPro\practice\graph.c -o CMakeFiles\practice.dir\graph.c.s
+
+CMakeFiles/practice.dir/pagerank.c.obj: CMakeFiles/practice.dir/flags.make
+CMakeFiles/practice.dir/pagerank.c.obj: ../pagerank.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\githubPro\practice\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/practice.dir/pagerank.c.obj"
+	D:\downloads\gcc_clang\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\practice.dir\pagerank.c.obj   -c D:\githubPro\practice\pagerank.c
+
+CMakeFiles/practice.dir/pagerank.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/practice.dir/pagerank.c.i"
+	D:\downloads\gcc_clang\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\githubPro\practice\pagerank.c > CMakeFiles\practice.dir\pagerank.c.i
+
+CMakeFiles/practice.dir/pagerank.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/practice.dir/pagerank.c.s"
+	D:\downloads\gcc_clang\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\githubPro\practice\pagerank.c -o CMakeFiles\practice.dir\pagerank.c.s
 
 # Object files for target practice
 practice_OBJECTS = \
-"CMakeFiles/practice.dir/main.c.obj"
+"CMakeFiles/practice.dir/readData.c.obj" \
+"CMakeFiles/practice.dir/graph.c.obj" \
+"CMakeFiles/practice.dir/pagerank.c.obj"
 
 # External object files for target practice
 practice_EXTERNAL_OBJECTS =
 
-practice.exe: CMakeFiles/practice.dir/main.c.obj
+practice.exe: CMakeFiles/practice.dir/readData.c.obj
+practice.exe: CMakeFiles/practice.dir/graph.c.obj
+practice.exe: CMakeFiles/practice.dir/pagerank.c.obj
 practice.exe: CMakeFiles/practice.dir/build.make
 practice.exe: CMakeFiles/practice.dir/linklibs.rsp
 practice.exe: CMakeFiles/practice.dir/objects1.rsp
 practice.exe: CMakeFiles/practice.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\githubPro\practice\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable practice.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\githubPro\practice\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable practice.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\practice.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

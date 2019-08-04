@@ -74,16 +74,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/githubPro/practice/graph.cpp">
+		<Unit filename="D:/githubPro/practice/graph.c">
 			<Option target="practice"/>
 		</Unit>
 		<Unit filename="D:/githubPro/practice/graph.h">
 			<Option target="practice"/>
 		</Unit>
-		<Unit filename="D:/githubPro/practice/main.c">
+		<Unit filename="D:/githubPro/practice/pagerank.c">
 			<Option target="practice"/>
 		</Unit>
-		<Unit filename="D:/githubPro/practice/readData.cpp">
+		<Unit filename="D:/githubPro/practice/pagerank.h">
+			<Option target="practice"/>
+		</Unit>
+		<Unit filename="D:/githubPro/practice/readData.c">
 			<Option target="practice"/>
 		</Unit>
 		<Unit filename="D:/githubPro/practice/readData.h">

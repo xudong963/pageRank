@@ -122,32 +122,86 @@ practice/fast:
 	$(MAKE) -f CMakeFiles\practice.dir\build.make CMakeFiles/practice.dir/build
 .PHONY : practice/fast
 
-main.obj: main.c.obj
+graph.obj: graph.c.obj
 
-.PHONY : main.obj
+.PHONY : graph.obj
 
 # target to build an object file
-main.c.obj:
-	$(MAKE) -f CMakeFiles\practice.dir\build.make CMakeFiles/practice.dir/main.c.obj
-.PHONY : main.c.obj
+graph.c.obj:
+	$(MAKE) -f CMakeFiles\practice.dir\build.make CMakeFiles/practice.dir/graph.c.obj
+.PHONY : graph.c.obj
 
-main.i: main.c.i
+graph.i: graph.c.i
 
-.PHONY : main.i
+.PHONY : graph.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles\practice.dir\build.make CMakeFiles/practice.dir/main.c.i
-.PHONY : main.c.i
+graph.c.i:
+	$(MAKE) -f CMakeFiles\practice.dir\build.make CMakeFiles/practice.dir/graph.c.i
+.PHONY : graph.c.i
 
-main.s: main.c.s
+graph.s: graph.c.s
 
-.PHONY : main.s
+.PHONY : graph.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles\practice.dir\build.make CMakeFiles/practice.dir/main.c.s
-.PHONY : main.c.s
+graph.c.s:
+	$(MAKE) -f CMakeFiles\practice.dir\build.make CMakeFiles/practice.dir/graph.c.s
+.PHONY : graph.c.s
+
+pagerank.obj: pagerank.c.obj
+
+.PHONY : pagerank.obj
+
+# target to build an object file
+pagerank.c.obj:
+	$(MAKE) -f CMakeFiles\practice.dir\build.make CMakeFiles/practice.dir/pagerank.c.obj
+.PHONY : pagerank.c.obj
+
+pagerank.i: pagerank.c.i
+
+.PHONY : pagerank.i
+
+# target to preprocess a source file
+pagerank.c.i:
+	$(MAKE) -f CMakeFiles\practice.dir\build.make CMakeFiles/practice.dir/pagerank.c.i
+.PHONY : pagerank.c.i
+
+pagerank.s: pagerank.c.s
+
+.PHONY : pagerank.s
+
+# target to generate assembly for a file
+pagerank.c.s:
+	$(MAKE) -f CMakeFiles\practice.dir\build.make CMakeFiles/practice.dir/pagerank.c.s
+.PHONY : pagerank.c.s
+
+readData.obj: readData.c.obj
+
+.PHONY : readData.obj
+
+# target to build an object file
+readData.c.obj:
+	$(MAKE) -f CMakeFiles\practice.dir\build.make CMakeFiles/practice.dir/readData.c.obj
+.PHONY : readData.c.obj
+
+readData.i: readData.c.i
+
+.PHONY : readData.i
+
+# target to preprocess a source file
+readData.c.i:
+	$(MAKE) -f CMakeFiles\practice.dir\build.make CMakeFiles/practice.dir/readData.c.i
+.PHONY : readData.c.i
+
+readData.s: readData.c.s
+
+.PHONY : readData.s
+
+# target to generate assembly for a file
+readData.c.s:
+	$(MAKE) -f CMakeFiles\practice.dir\build.make CMakeFiles/practice.dir/readData.c.s
+.PHONY : readData.c.s
 
 # Help Target
 help:
@@ -158,9 +212,15 @@ help:
 	@echo ... edit_cache
 	@echo ... practice
 	@echo ... rebuild_cache
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... graph.obj
+	@echo ... graph.i
+	@echo ... graph.s
+	@echo ... pagerank.obj
+	@echo ... pagerank.i
+	@echo ... pagerank.s
+	@echo ... readData.obj
+	@echo ... readData.i
+	@echo ... readData.s
 .PHONY : help
 
 

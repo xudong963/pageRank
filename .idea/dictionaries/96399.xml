@@ -3,9 +3,13 @@
     <words>
       <w>fscanf</w>
       <w>inlinks</w>
+      <w>maxv</w>
       <w>outlinks</w>
+      <w>pagerank</w>
+      <w>strtod</w>
       <w>sumin</w>
       <w>sumout</w>
+      <w>wout</w>
     </words>
   </dictionary>
 </component>
