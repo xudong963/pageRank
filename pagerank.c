@@ -15,7 +15,7 @@ int main(int argc, char* argv[])
     //result are written into pagerankList.txt
     FILE* fp = fopen("pagerankList.txt", "w");
     for(int i=0; i<urlNum; i++)
-        fprintf(fp, "%s, %d, %.7f\n", urlArr[i], outDegree[i], pageRank[i]);
+        fprintf(fp, "%s, %d, %.7f\n", urlArr[i], outDegree[i], *(pageRank+i));
     fclose(fp);
     return 0;
 }
@@ -23,8 +23,7 @@ int main(int argc, char* argv[])
 //this function is written by "Calculate Weighted PageRanks" in "http://www.cse.unsw.edu.au/~cs2521/19T2/assigns/ass2/Ass2.html"
 double* calculatePageRankW(graphStructure g, double d, double diffPR, int maxIteration)
 {
-    double PR[urlNum];
-    double *pr;
+    double *PR  = malloc(urlNum* sizeof(double));
     double fontPR[urlNum];
     for(int i=0; i<urlNum; i++)
         PR[i] = (double)1/urlNum;
@@ -42,18 +41,17 @@ double* calculatePageRankW(graphStructure g, double d, double diffPR, int maxIte
             sum = 0;
             for(int j=0; j<urlNum; j++)
             {
-                if(g->w[j][i])
+                if(g->w[j][i] && i!=j)
                     sum += (fontPR[j] * (inLinks(g, i)/sumIn(g,j)) * (outLinks(g, i)/sumOut(g,j)));
             }
-            PR[i] = (1-d)/urlNum + d*sum;
+            PR[i] = (1.0-d)/urlNum + d*sum;
         }
         for(int i=0; i<urlNum; i++)
             sumDiff += fabs(PR[i] - fontPR[i]);
         diff = sumDiff;
         iteration++;
     }
-    pr = PR;
-    return pr;
+    return PR;
 }
 
 
@@ -63,16 +61,16 @@ void sort(double* PR, int len)
     //bubble sort
     double t;
     char tStr[100];
-    double tOut;
+    int tOut;
     for(int i=0; i<len; i++)
     {
         for(int j=i+1; j<len; j++)
         {
-            if(PR[i]<PR[j])
+            if(*(PR+i)<*(PR+j))
             {
-                t = PR[i];
-                PR[i] = PR[j];
-                PR[j] = t;
+                t = *(PR+i);
+                *(PR+i) = *(PR+j);
+                *(PR+j) = t;
 
                 strcpy(tStr, urlArr[i]);
                 strcpy(urlArr[i],urlArr[j]);
