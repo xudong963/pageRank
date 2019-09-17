@@ -8,91 +8,95 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/githubPro/practice/cmake-build-debug"/>
+				<Option working_dir="/home/robot/github/practice/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/downloads/gcc_clang/mingw64/bin/mingw32-make.exe -f &quot;D:/githubPro/practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="D:/downloads/gcc_clang/mingw64/bin/mingw32-make.exe -f &quot;D:/githubPro/practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/downloads/gcc_clang/mingw64/bin/mingw32-make.exe -f &quot;D:/githubPro/practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/downloads/gcc_clang/mingw64/bin/mingw32-make.exe -f &quot;D:/githubPro/practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="D:/githubPro/practice/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="D:/downloads/gcc_clang/mingw64/bin/mingw32-make.exe -f &quot;D:/githubPro/practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="D:/downloads/gcc_clang/mingw64/bin/mingw32-make.exe -f &quot;D:/githubPro/practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/downloads/gcc_clang/mingw64/bin/mingw32-make.exe -f &quot;D:/githubPro/practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/downloads/gcc_clang/mingw64/bin/mingw32-make.exe -f &quot;D:/githubPro/practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="practice">
-				<Option output="D:/githubPro/practice/cmake-build-debug/practice.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/githubPro/practice/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/downloads/gcc_clang/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/downloads/gcc_clang/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/downloads/gcc_clang/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/downloads/gcc_clang/mingw64/bin/mingw32-make.exe -f &quot;D:/githubPro/practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 practice"/>
-					<CompileFile command="D:/downloads/gcc_clang/mingw64/bin/mingw32-make.exe -f &quot;D:/githubPro/practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/downloads/gcc_clang/mingw64/bin/mingw32-make.exe -f &quot;D:/githubPro/practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/downloads/gcc_clang/mingw64/bin/mingw32-make.exe -f &quot;D:/githubPro/practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="practice/fast">
-				<Option output="D:/githubPro/practice/cmake-build-debug/practice.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/githubPro/practice/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/downloads/gcc_clang/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/downloads/gcc_clang/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/downloads/gcc_clang/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/downloads/gcc_clang/mingw64/bin/mingw32-make.exe -f &quot;D:/githubPro/practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 practice/fast"/>
-					<CompileFile command="D:/downloads/gcc_clang/mingw64/bin/mingw32-make.exe -f &quot;D:/githubPro/practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/downloads/gcc_clang/mingw64/bin/mingw32-make.exe -f &quot;D:/githubPro/practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/downloads/gcc_clang/mingw64/bin/mingw32-make.exe -f &quot;D:/githubPro/practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/robot/github/practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/robot/github/practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/robot/github/practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/robot/github/practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/githubPro/practice/cmake-build-debug"/>
+				<Option working_dir="/home/robot/github/practice/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/downloads/gcc_clang/mingw64/bin/mingw32-make.exe -f &quot;D:/githubPro/practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="D:/downloads/gcc_clang/mingw64/bin/mingw32-make.exe -f &quot;D:/githubPro/practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/downloads/gcc_clang/mingw64/bin/mingw32-make.exe -f &quot;D:/githubPro/practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/downloads/gcc_clang/mingw64/bin/mingw32-make.exe -f &quot;D:/githubPro/practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/robot/github/practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/robot/github/practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/robot/github/practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/robot/github/practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="practice">
+				<Option output="/home/robot/github/practice/cmake-build-debug/practice" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/robot/github/practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/robot/github/practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 practice"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/robot/github/practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/robot/github/practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/robot/github/practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="practice/fast">
+				<Option output="/home/robot/github/practice/cmake-build-debug/practice" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/robot/github/practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/robot/github/practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 practice/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/robot/github/practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/robot/github/practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/robot/github/practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/robot/github/practice/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/robot/github/practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/robot/github/practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/robot/github/practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/robot/github/practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/githubPro/practice/graph.c">
+		<Unit filename="/home/robot/github/practice/graph.c">
 			<Option target="practice"/>
 		</Unit>
-		<Unit filename="D:/githubPro/practice/graph.h">
+		<Unit filename="/home/robot/github/practice/graph.h">
 			<Option target="practice"/>
 		</Unit>
-		<Unit filename="D:/githubPro/practice/pagerank.c">
+		<Unit filename="/home/robot/github/practice/pagerank.c">
 			<Option target="practice"/>
 		</Unit>
-		<Unit filename="D:/githubPro/practice/pagerank.h">
+		<Unit filename="/home/robot/github/practice/pagerank.h">
 			<Option target="practice"/>
 		</Unit>
-		<Unit filename="D:/githubPro/practice/readData.c">
+		<Unit filename="/home/robot/github/practice/readData.c">
 			<Option target="practice"/>
 		</Unit>
-		<Unit filename="D:/githubPro/practice/readData.h">
+		<Unit filename="/home/robot/github/practice/readData.h">
 			<Option target="practice"/>
 		</Unit>
-		<Unit filename="D:/githubPro/practice/CMakeLists.txt">
+		<Unit filename="/home/robot/github/practice/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

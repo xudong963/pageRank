@@ -1,3 +1,1 @@
-"D:\downloads\clion\CLion 2018.3\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\practice.dir/objects.a
-D:\downloads\gcc_clang\mingw64\bin\ar.exe cr CMakeFiles\practice.dir/objects.a @CMakeFiles\practice.dir\objects1.rsp
-D:\downloads\gcc_clang\mingw64\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\practice.dir/objects.a -Wl,--no-whole-archive  -o practice.exe -Wl,--out-implib,libpractice.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\practice.dir\linklibs.rsp
+/usr/bin/cc -g   CMakeFiles/practice.dir/readData.c.o CMakeFiles/practice.dir/graph.c.o CMakeFiles/practice.dir/pagerank.c.o  -o practice 
